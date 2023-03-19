@@ -626,6 +626,9 @@ vendor/etc/media_codecs_vendor_audio.xml
 # NFC firmware
 vendor/lib/libpn548ad_fw.so
 
+# Open Camera
+-app/OpenCamera/OpenCamera.apk;OVERRIDES=Aperture|fb1db71f8df6fe8dbe12bdcf5bc1ed70f0f80af9
+
 # Perf
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
 vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
