@@ -391,6 +391,26 @@ vendor/lib64/vendor.qti.latency@2.0.so|91a8b05b20485057ee9f42c55ce70207ef6af761
 vendor/etc/qdcm_calib_data_NT36830_dual_dsi_cmd_mode_panel_with_DSC.xml
 vendor/etc/qdcm_calib_data_NT36830_dual_dsi_video_mode_panel_with_DSC.xml
 
+# Dolby Atmos™
+-app/DaxUI/DaxUI.apk
+-priv-app/daxService/daxService.apk
+etc/permissions/com.dolby.daxservice.xml
+vendor/lib/soundfx/libswdap.so
+vendor/lib/libdapparamstorage.so
+vendor/lib/libstagefrightdolby.so
+vendor/lib/libstagefright_soft_ddpdec.so
+vendor/lib/vendor.dolby.hardware.dms@1.0.so
+vendor/lib64/soundfx/libswdap.so
+vendor/lib64/libdapparamstorage.so
+vendor/lib64/libdlbdsservice.so
+vendor/lib64/libstagefrightdolby.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so
+vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
+vendor/etc/media_codecs_dolby_audio.xml
+vendor/etc/dolby/dax-default.xml
+vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc
+
 # DPM - from jasmine V11.0.15.0.QDIMIXM
 product/bin/dpmd:system_ext/bin/dpmd|49caa8e7d8af8055efdd7ebc0d7f7d67bc600041
 product/etc/dpm/dpm.conf:system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
@@ -598,6 +618,10 @@ vendor/lib/libvpphvx.so
 vendor/lib/libvpplibrary.so
 vendor/lib/libvqzip.so
 -vendor/lib64/libgpustats.so
+
+# Media Configs
+vendor/etc/media_codecs_vendor.xml
+vendor/etc/media_codecs_vendor_audio.xml
 
 # NFC firmware
 vendor/lib/libpn548ad_fw.so
